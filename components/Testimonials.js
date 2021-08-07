@@ -46,7 +46,7 @@ function Testimonial() {
 
 
     return (
-        <section className="relative flex flex-col items-center" id="testimonial">
+        <section id="testimonials" className="relative flex flex-col items-center">
             <SectionHeader slogan="TESTIMONIAL" text="Meet Client Satisfaction"/>
             <div className="w-full relative py-10">
                 <Slider {...settings} ref={sliderRef}>

@@ -4,7 +4,7 @@ import { DATA } from '../helpers/Data';
 
 function Feature() {
     return (
-        <section className="flex flex-col items-center w-full pb-20 ">
+        <section id='features' className="flex flex-col items-center w-full pb-20 ">
             <SectionHeader slogan={"WHATS THE FUNCTION"} text={"Meet the feature of product"}/>
             <div className="grid place-items-center sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 py-20">
                 {DATA().feature.map((item) => {
